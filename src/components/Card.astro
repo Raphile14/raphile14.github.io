@@ -6,15 +6,16 @@ export interface Props {
   href: string;
   img: string;
   role: string;
+  awards: string | null;
 }
 
-const { title, duration, body, href, img, role } = Astro.props;
+const { title, duration, body, href, img, role, awards } = Astro.props;
 ---
 
-<li class='link-card border-spacing-2 border-black'>
-  <a href={href}>
-    <div class='py-4 px-8'>
-      <img class='pt-4 pb-6 aspect-[15/9]' src={img} alt={title} />
+<li class='link-card border-spacing-2'>
+  <a href={href} target='_blank'>
+    <img class='p-4 aspect-[15/9]' src={img} alt={title} />
+    <div class='mx-4 py-4 px-8'>
       <h2 class='text-center font-bold text-xl'>
         {title}
       </h2>
@@ -24,6 +25,7 @@ const { title, duration, body, href, img, role } = Astro.props;
       <p class='text-justify py-4'>
         {body}
       </p>
+      {awards && <p class='text-justify text-sm text-gray-500'>{awards}</p>}
     </div>
   </a>
 </li>
