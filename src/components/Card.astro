@@ -12,10 +12,16 @@ export interface Props {
 const { title, duration, body, href, img, role, awards } = Astro.props;
 ---
 
-<li class='link-card border-spacing-2'>
+<li class='border-spacing-2 bg-slate-100 rounded-3xl'>
   <a href={href} target='_blank'>
-    <img class='p-4 aspect-[15/9]' src={img} alt={title} />
-    <div class='mx-4 py-4 px-8'>
+    <div class='relative'>
+      <div
+        class='absolute bottom-0 h-16 w-full bg-gradient-to-b from-transparent to-slate-100'
+      >
+      </div>
+      <img class='p-[1px] aspect-[16/9] rounded-t-3xl' src={img} alt={title} />
+    </div>
+    <div class='mx-4 py-8 px-8'>
       <h2 class='text-center font-bold text-xl'>
         {title}
       </h2>

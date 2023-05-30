@@ -9,14 +9,14 @@ import gameDevProjects from '@data/game-dev-projects.json';
 <Layout title="Raphael Dalangin's Portfolio">
   <main class='py-8'>
     <!-- Web Projects -->
-    <section>
-      <h2 class='text-center uppercase font-bold text-2xl'>
+    <section class='pb-8'>
+      <h2 class='text-center uppercase font-bold text-2xl pb-8'>
         {webProjects.title}
       </h2>
       <ul
         id='projects'
         role='list'
-        class='grid grid-cols-1 md:grid-cols-2 grid-flow-row gap-4 w-full lg:px-24'
+        class='grid grid-cols-1 md:grid-cols-2 grid-flow-row gap-16 w-full lg:px-24'
       >
         {
           webProjects.data.map((project) => (
@@ -35,14 +35,14 @@ import gameDevProjects from '@data/game-dev-projects.json';
     </section>
 
     <!-- Academic Projects -->
-    <section>
-      <h2 class='text-center uppercase font-bold text-2xl'>
+    <section class='pb-8'>
+      <h2 class='text-center uppercase font-bold text-2xl pb-8'>
         {academicProjects.title}
       </h2>
       <ul
         id='projects'
         role='list'
-        class='grid grid-cols-1 md:grid-cols-2 grid-flow-row gap-4 w-full lg:px-24'
+        class='grid grid-cols-1 md:grid-cols-2 grid-flow-row gap-16 w-full lg:px-24'
       >
         {
           academicProjects.data.map((project) => (
@@ -61,14 +61,14 @@ import gameDevProjects from '@data/game-dev-projects.json';
     </section>
 
     <!-- Game Dev Projects -->
-    <section>
-      <h2 class='text-center uppercase font-bold text-2xl'>
+    <section class='pb-8'>
+      <h2 class='text-center uppercase font-bold text-2xl pb-8'>
         {gameDevProjects.title}
       </h2>
       <ul
         id='projects'
         role='list'
-        class='grid grid-cols-1 md:grid-cols-2 grid-flow-row gap-4 w-full lg:px-24'
+        class='grid grid-cols-1 md:grid-cols-2 grid-flow-row gap-16 w-full lg:px-24'
       >
         {
           gameDevProjects.data.map((project) => (
