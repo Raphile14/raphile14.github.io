@@ -1,0 +1,65 @@
+{
+  "webTitle": "Web Dev Projects",
+  "webProjects": [
+    {
+      "title": "MMCM OCP Internship Website",
+      "duration": "Feb 2022 - Oct 2022",
+      "body": "A website created for Mapúa Malayan Colleges Mindanao to handle the internship operations of the school. All partner companies are listed here, and students can apply for internships and submit requirements.",
+      "href": "https://docs.astro.build/",
+      "img": "/images/mmcm-ocp.png",
+      "role": "Full Stack Developer"
+    },
+    {
+      "title": "MMCM CCIS Website",
+      "duration": "June 2021 - Aug 2021",
+      "body": "A website created for the College of Computer and Information Science Department of Mapúa Malayan Colleges Mindanao.",
+      "href": "https://docs.astro.build/",
+      "img": "/images/mcm-ccis-website.png",
+      "role": "Full Stack Developer"
+    },
+    {
+      "title": "MCM Virtual Marketplace 2020",
+      "duration": "Dec 2020",
+      "body": "A website created for Mapúa Malayan Colleges Mindanao's Office for Student Services during the December Virtual Marketing event.",
+      "href": "https://docs.astro.build/",
+      "img": "/images/mcm-virtual-marketplace.png",
+      "role": "Full Stack Developer"
+    },
+    {
+      "title": "MCM Virtual Club Fair",
+      "duration": "Oct 2020",
+      "body": "A frontend and backend project for the MCM Virtual Club Fair 2020. The website is used to showcase the institution's student clubs and organization.",
+      "href": "https://docs.astro.build/",
+      "img": "/images/mcm-club-fair.png",
+      "role": "Full Stack Developer"
+    },
+    {
+      "title": "MCM Fusion Technicity: Voting Website",
+      "duration": "Sep 2020 - Oct 2020",
+      "body": "This Webite is used to assist the MCM Fusion: Technicity event for the academic year 2020-2021 on October 2, 2020. The Website will handle the votation process for the Mr and Ms Staycation, Show Stopper, MCMFlicks and Chill, and Vattle of the Vands. The website also showcases a live display of current votes.",
+      "href": "https://docs.astro.build/",
+      "img": "/images/mcm-fusion.png",
+      "role": "Full Stack Developer"
+    }
+  ],
+  "academicTitle": "Academic Projects",
+  "academicProjects": [
+    {
+      "title": "Reinforcement Learning For Simulating Personal Navigation UAV",
+      "duration": "Sep 2021 - Oct 2021",
+      "body": "An academic research project for our Machine Learning course. The project aims to develop a model that is capable of navigating and following its owner. The model is trained in an Unity virtual environment.",
+      "href": "https://docs.astro.build/",
+      "img": "/images/uav-paper.png",
+      "role": "Researcher and Lead Programmer"
+    },
+    {
+      "title": "ChatTalkCGC: A Responsive Platform For Guidance and Counselling of Academic and Non-Academic Matters in MCM",
+      "duration": "Jan 2021 - Sep 2021",
+      "body": "An academic research project for IT129, IT104P, and CS140-2P that aims to provide a platform for students and the MCM's Office of Student Services to communicate. SCOPUS publication.",
+      "href": "https://docs.astro.build/",
+      "img": "/images/uav-paper.png",
+      "role": "Researcher and Lead Programmer",
+      "awards": "Best Presenter in Track 1: Automation Engineering and Information Technology"
+    }
+  ]
+}
