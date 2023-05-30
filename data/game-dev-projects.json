@@ -1,0 +1,14 @@
+{
+  "title": "Game Dev Projects",
+  "data": [
+    {
+      "title": "Away From The Cube",
+      "duration": "Oct 2020",
+      "body": "A final project submission for a game development course. Away From The Cube is a singleplayer puzzle horror survival game built using Unity.",
+      "href": "https://docs.astro.build/",
+      "img": "/images/aftc.png",
+      "role": "Lead Programmer",
+      "awards": null
+    }
+  ]
+}
