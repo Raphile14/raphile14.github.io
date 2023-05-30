@@ -4,78 +4,53 @@ import Card from '../components/Card.astro';
 ---
 
 <Layout title="Raphael Dalangin's Portfolio">
-	<main>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
-	</main>
+  <main class='py-8'>
+    <h1 class='text-center uppercase font-bold text-2xl'>Web Projects</h1>
+    <ul
+      id='projects'
+      role='list'
+      class='grid grid-cols-1 md:grid-cols-2 grid-flow-row gap-4 w-full lg:px-24'
+    >
+      <Card
+        title='MMCM OCP Internship Website'
+        duration='Feb 2022 - Oct 2022'
+        body='A website created for Mapúa Malayan Colleges Mindanao to handle the internship operations of the school. All partner companies are listed here, and students can apply for internships and submit requirements.'
+        href='https://docs.astro.build/'
+        img='/images/mmcm-ocp.png'
+        role='Full Stack Developer'
+      />
+      <Card
+        title='MMCM CCIS Website'
+        duration='June 2021 - Aug 2021'
+        body='A website created for the College of Computer and Information Science Department of Mapúa Malayan Colleges Mindanao.'
+        href='https://docs.astro.build/'
+        img='/images/mcm-ccis-website.png'
+        role='Full Stack Developer'
+      />
+      <Card
+        title='MCM Virtual Marketplace 2020'
+        duration='December 2020'
+        body="A website created for Mapúa Malayan Colleges Mindanao's Office for Student Services during the December Virtual Marketing event."
+        href='https://docs.astro.build/'
+        img='/images/mcm-virtual-marketplace.png'
+        role='Full Stack Developer'
+      />
+      <Card
+        title='MCM Fusion Technicity: Voting Website'
+        duration='Sep 2020 - Oct 2020'
+        body='This Webite is used to assist the MCM Fusion: Technicity event for the academic year 2020-2021 on October 2, 2020. The Website will handle the votation process for the Mr and Ms Staycation, Show Stopper, MCMFlicks and Chill, and Vattle of the Vands. The website also showcases a live display of current votes.'
+        href='https://docs.astro.build/'
+        img='/images/mcm-fusion.png'
+        role='Full Stack Developer'
+      />
+      <Card
+        title='MCM Virtual Club Fair'
+        duration='Oct 2020'
+        body="A frontend and backend project for the MCM Virtual Club Fair 2020. The website is used to showcase the institution's student clubs and organization."
+        href='https://docs.astro.build/'
+        img='/images/mcm-club-fair.png'
+        role='Full Stack Developer'
+      />
+    </ul>
+  </main>
 </Layout>
-
-<style>
-	main {
-		margin: auto;
-		padding: 1.5rem;
-		max-width: 60ch;
-	}
-	h1 {
-		font-size: 3rem;
-		font-weight: 800;
-		margin: 0;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		line-height: 1.6;
-		margin: 1rem 0;
-		border: 1px solid rgba(var(--accent), 25%);
-		background-color: white;
-		padding: 1rem;
-		border-radius: 0.4rem;
-	}
-	.instructions code {
-		font-size: 0.875em;
-		font-weight: bold;
-		background: rgba(var(--accent), 12%);
-		color: rgb(var(--accent));
-		border-radius: 4px;
-		padding: 0.3em 0.45em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 1rem;
-		padding: 0;
-	}
-</style>
