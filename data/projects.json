@@ -7,7 +7,8 @@
       "body": "A website created for Mapúa Malayan Colleges Mindanao to handle the internship operations of the school. All partner companies are listed here, and students can apply for internships and submit requirements.",
       "href": "https://docs.astro.build/",
       "img": "/images/mmcm-ocp.png",
-      "role": "Full Stack Developer"
+      "role": "Full Stack Developer",
+      "awards": null
     },
     {
       "title": "MMCM CCIS Website",
@@ -15,7 +16,8 @@
       "body": "A website created for the College of Computer and Information Science Department of Mapúa Malayan Colleges Mindanao.",
       "href": "https://docs.astro.build/",
       "img": "/images/mcm-ccis-website.png",
-      "role": "Full Stack Developer"
+      "role": "Full Stack Developer",
+      "awards": null
     },
     {
       "title": "MCM Virtual Marketplace 2020",
@@ -23,7 +25,8 @@
       "body": "A website created for Mapúa Malayan Colleges Mindanao's Office for Student Services during the December Virtual Marketing event.",
       "href": "https://docs.astro.build/",
       "img": "/images/mcm-virtual-marketplace.png",
-      "role": "Full Stack Developer"
+      "role": "Full Stack Developer",
+      "awards": null
     },
     {
       "title": "MCM Virtual Club Fair",
@@ -31,7 +34,8 @@
       "body": "A frontend and backend project for the MCM Virtual Club Fair 2020. The website is used to showcase the institution's student clubs and organization.",
       "href": "https://docs.astro.build/",
       "img": "/images/mcm-club-fair.png",
-      "role": "Full Stack Developer"
+      "role": "Full Stack Developer",
+      "awards": null
     },
     {
       "title": "MCM Fusion Technicity: Voting Website",
@@ -39,7 +43,8 @@
       "body": "This Webite is used to assist the MCM Fusion: Technicity event for the academic year 2020-2021 on October 2, 2020. The Website will handle the votation process for the Mr and Ms Staycation, Show Stopper, MCMFlicks and Chill, and Vattle of the Vands. The website also showcases a live display of current votes.",
       "href": "https://docs.astro.build/",
       "img": "/images/mcm-fusion.png",
-      "role": "Full Stack Developer"
+      "role": "Full Stack Developer",
+      "awards": null
     }
   ],
   "academicTitle": "Academic Projects",
@@ -50,7 +55,8 @@
       "body": "An academic research project for our Machine Learning course. The project aims to develop a model that is capable of navigating and following its owner. The model is trained in an Unity virtual environment.",
       "href": "https://docs.astro.build/",
       "img": "/images/uav-paper.png",
-      "role": "Researcher and Lead Programmer"
+      "role": "Researcher and Lead Programmer",
+      "awards": null
     },
     {
       "title": "ChatTalkCGC: A Responsive Platform For Guidance and Counselling of Academic and Non-Academic Matters in MCM",
