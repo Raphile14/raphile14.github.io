@@ -12,7 +12,9 @@ export interface Props {
 const { title, duration, body, href, img, role, awards } = Astro.props;
 ---
 
-<li class='border-spacing-2 bg-slate-100 rounded-3xl shadow-2xl'>
+<li
+  class='border-spacing-2 bg-slate-100 rounded-3xl shadow-2xl transition hover:scale-105'
+>
   <a href={href} target='_blank'>
     <div class='relative'>
       <div
