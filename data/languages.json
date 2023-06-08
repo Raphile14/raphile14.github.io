@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "name": "Java",
+      "img": "/images/languages/java.png",
+      "url": "https://www.java.com/en/"
+    },
+    {
+      "name": "Kotlin",
+      "img": "/images/languages/kotlin.png",
+      "url": "https://kotlinlang.org/"
+    },
+    {
+      "name": "TypeScript",
+      "img": "/images/languages/typescript.png",
+      "url": "https://www.typescriptlang.org/"
+    },
+    {
+      "name": "JavaScript",
+      "img": "/images/languages/javascript.png",
+      "url": "https://www.javascript.com/"
+    },
+    {
+      "name": "Python",
+      "img": "/images/languages/python.png",
+      "url": "https://www.python.org/"
+    },
+    {
+      "name": "C#",
+      "img": "/images/languages/csharp.png",
+      "url": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+    }
+  ]
+}
