@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "name": "Spring Boot",
+      "img": "/images/tech/spring-boot.png",
+      "url": "https://spring.io/projects/spring-boot"
+    },
+    {
+      "name": "Node.js",
+      "img": "/images/tech/nodejs.png",
+      "url": "https://nodejs.org/en/"
+    },
+    {
+      "name": "Next.js",
+      "img": "/images/tech/nextjs.png",
+      "url": "https://nextjs.org/"
+    },
+    {
+      "name": "React.js",
+      "img": "/images/tech/react.png",
+      "url": "https://reactjs.org/"
+    },
+    {
+      "name": "MySQL",
+      "img": "/images/tech/mysql.png",
+      "url": "https://www.mysql.com/"
+    },
+    {
+      "name": "MongoDB",
+      "img": "/images/tech/mongodb.png",
+      "url": "https://www.mongodb.com/"
+    },
+    {
+      "name": "PostgreSQL",
+      "img": "/images/tech/postgres.png",
+      "url": "https://www.postgresql.org/"
+    },
+    {
+      "name": "Unity",
+      "img": "/images/tech/unity.png",
+      "url": "https://unity.com/"
+    }
+  ]
+}
