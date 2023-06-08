@@ -13,32 +13,32 @@ import languages from "@data/languages.json";
     <!-- About Me Data -->
     <section
       id='about'
-      class='border-spacing-2 bg-slate-100 rounded-3xl shadow-2xl m-4 md:m-16'
+      class='border-spacing-2 bg-slate-100 rounded-3xl shadow-2xl m-4 md:m-16 lg:m-16'
     >
       <div class='py-8'>
-        <h2 class='hidden md:block text-center font-bold text-2xl pb-8'>
+        <h2 class='hidden lg:block text-center font-bold text-2xl pb-8'>
           Hello World, and welcome to my portfolio!
         </h2>
 
-        <h2 class='md:hidden text-center font-bold text-2xl pb-4 md:pb-8'>
+        <h2 class='lg:hidden text-center font-bold text-2xl pb-4 lg:pb-8'>
           Hello World, <span class='line-clamp-1 text-base'>
             and welcome to my portfolio!
           </span>
         </h2>
 
         <!-- Tech and Languages -->
-        <article class='flex justify-center items-center h-full px-4 md:px-16'>
+        <article class='flex justify-center items-center h-full px-4 lg:px-16'>
           <div class='flex w-full'>
-            <div class='hidden md:block w-1/4 shrink-0'>
+            <div class='hidden lg:block w-1/4 shrink-0'>
               <img
                 class='rounded-3xl shadow-2xl'
                 src='/images/Raphael Dalangin.jpg'
                 alt='My image'
               />
             </div>
-            <div class='px-4 md:px-16'>
+            <div class='px-4 lg:px-16'>
               <div class='text-justify'>
-                <div class='block md:hidden w-1/4 shrink-0 mx-auto pb-4'>
+                <div class='block lg:hidden w-1/4 shrink-0 mx-auto pb-4'>
                   <img
                     class='rounded-3xl shadow-2xl'
                     src='/images/Raphael Dalangin.jpg'
@@ -57,14 +57,14 @@ import languages from "@data/languages.json";
                   technologies I have experience developing projects with:
                 </p>
                 <div
-                  class='flex flex-wrap px-4 md:px-16 gap-4 md:gap-y-8 justify-center'
+                  class='flex flex-wrap px-4 lg:px-16 gap-4 lg:gap-y-8 justify-center'
                 >
                   {
                     technologies.data.map((technology) => (
                       <a href={technology.url} target='_blank'>
                         <div class='flex flex-col items-center transition hover:scale-110'>
                           <img
-                            class='rounded-full max-h-8 md:max-h-16 px-4 md:px-8'
+                            class='rounded-full max-h-8 lg:max-h-16 px-4 lg:px-8'
                             src={technology.img}
                             alt={technology.name}
                           />
@@ -81,14 +81,14 @@ import languages from "@data/languages.json";
                 </p>
 
                 <div
-                  class='flex flex-wrap px-4 md:px-16 gap-4 md:gap-y-8 justify-center'
+                  class='flex flex-wrap px-4 lg:px-16 gap-4 lg:gap-y-8 justify-center'
                 >
                   {
                     languages.data.map((language) => (
                       <a href={language.url} target='_blank'>
                         <div class='flex flex-col items-center transition hover:scale-110'>
                           <img
-                            class='rounded-full max-h-8 md:max-h-16 px-4 md:px-8'
+                            class='rounded-full max-h-8 lg:max-h-16 px-4 lg:px-8'
                             src={language.img}
                             alt={language.name}
                           />
@@ -114,10 +114,10 @@ import languages from "@data/languages.json";
         </article>
 
         <!-- Academics -->
-        <article class='flex justify-center items-center h-full px-4 md:px-16'>
+        <article class='flex justify-center items-center h-full px-4 lg:px-16'>
           <div class='flex w-full'>
-            <div class='px-4 md:px-16'>
-              <div class='block md:hidden pb-4 w-1/4 shrink-0 mx-auto'>
+            <div class='px-4 lg:px-16'>
+              <div class='block lg:hidden pb-4 w-1/4 shrink-0 mx-auto'>
                 <div
                   class='aspect-square rounded-3xl shadow-2xl overflow-hidden'
                 >
@@ -129,7 +129,7 @@ import languages from "@data/languages.json";
                 </div>
               </div>
               <h2
-                class='text-center md:text-justify font-bold text-2xl pb-4 md:pb-8'
+                class='text-center lg:text-justify font-bold text-2xl pb-4 lg:pb-8'
               >
                 My Academics
               </h2>
@@ -152,7 +152,7 @@ import languages from "@data/languages.json";
                 endeavors.
               </p>
             </div>
-            <div class='hidden md:block w-1/4 shrink-0'>
+            <div class='hidden lg:block w-1/4 shrink-0'>
               <div class='aspect-square rounded-3xl shadow-2xl overflow-hidden'>
                 <img
                   class='w-full h-full object-cover object-top'
@@ -173,7 +173,7 @@ import languages from "@data/languages.json";
       </h2>
       <ul
         role='list'
-        class='grid grid-cols-1 md:grid-cols-2 grid-flow-row gap-16 w-full px-4 md:px-24'
+        class='grid grid-cols-1 lg:grid-cols-2 grid-flow-row gap-16 w-full px-4 md:px-16 lg:px-24'
       >
         {
           webProjects.data.map((project) => (
@@ -199,7 +199,7 @@ import languages from "@data/languages.json";
       <ul
         id='projects'
         role='list'
-        class='grid grid-cols-1 md:grid-cols-2 grid-flow-row gap-16 w-full px-4 md:px-24'
+        class='grid grid-cols-1 lg:grid-cols-2 grid-flow-row gap-16 w-full px-4 md:px-16 lg:px-24'
       >
         {
           academicProjects.data.map((project) => (
@@ -225,7 +225,7 @@ import languages from "@data/languages.json";
       <ul
         id='projects'
         role='list'
-        class='grid grid-cols-1 md:grid-cols-2 grid-flow-row gap-16 w-full px-4 md:px-24'
+        class='grid grid-cols-1 lg:grid-cols-2 grid-flow-row gap-16 w-full px-4 md:px-16 lg:px-24'
       >
         {
           gameDevProjects.data.map((project) => (
@@ -246,7 +246,7 @@ import languages from "@data/languages.json";
     <!-- Contact Me -->
     <section id='contact' class='mb-16'>
       <h2 class='text-center uppercase font-bold text-2xl p-8'>Contact Me</h2>
-      <div class='grid grid-cols-1 justify-center w-full h-full px-2 md:px-16'>
+      <div class='grid grid-cols-1 justify-center w-full h-full px-2 lg:px-16'>
         <div class='w-32 shrink-0 mx-auto'>
           <div class='aspect-square rounded-full shadow-2xl overflow-hidden'>
             <img
@@ -256,9 +256,9 @@ import languages from "@data/languages.json";
             />
           </div>
         </div>
-        <div class='px-16'>
+        <div class='px-4 md:px-16'>
           <div class='text-center'>
-            <p class='p-4 md:p-8'>
+            <p class='p-4 lg:p-8'>
               I am <b class='uppercase'>always</b> open to new opportunities.
             </p>
             <p>
