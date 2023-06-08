@@ -1,0 +1,23 @@
+{
+  "title": "Academic Projects",
+  "data": [
+    {
+      "title": "Reinforcement Learning For Simulating Personal Navigation UAV",
+      "duration": "Sep 2021 - Oct 2021",
+      "body": "An academic research project for our Machine Learning course. The project aims to develop a model that is capable of navigating and following its owner. The model is trained in an Unity virtual environment.",
+      "href": null,
+      "img": "/images/uav-paper.png",
+      "role": "Researcher and Lead Programmer",
+      "awards": null
+    },
+    {
+      "title": "ChatTalkCGC: A Responsive Platform For Guidance and Counselling of Academic and Non-Academic Matters in MCM",
+      "duration": "Jan 2021 - Sep 2021",
+      "body": "An academic research project for IT129, IT104P, and CS140-2P that aims to provide a platform for students and the MCM's Office of Student Services to communicate. SCOPUS publication.",
+      "href": "https://aip.scitation.org/doi/abs/10.1063/5.0108485",
+      "img": "/images/uav-paper.png",
+      "role": "Researcher and Lead Programmer",
+      "awards": "Best Presenter in Track 1: Automation Engineering and Information Technology"
+    }
+  ]
+}

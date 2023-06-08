@@ -1,0 +1,50 @@
+{
+  "title": "Web Dev Projects",
+  "data": [
+    {
+      "title": "MMCM OCP Internship Website",
+      "duration": "Feb 2022 - Oct 2022",
+      "body": "A website created for Mapúa Malayan Colleges Mindanao to handle the internship operations of the school. All partner companies are listed here, and students can apply for internships and submit requirements.",
+      "href": "https://mmcm-ocp.com/",
+      "img": "/images/mmcm-ocp.png",
+      "role": "Full Stack Developer",
+      "awards": null
+    },
+    {
+      "title": "MMCM CCIS Website",
+      "duration": "June 2021 - Aug 2021",
+      "body": "A website created for the College of Computer and Information Science Department of Mapúa Malayan Colleges Mindanao.",
+      "href": null,
+      "img": "/images/mcm-ccis-website.png",
+      "role": "Full Stack Developer",
+      "awards": null
+    },
+    {
+      "title": "MCM Virtual Marketplace 2020",
+      "duration": "Dec 2020",
+      "body": "A website created for Mapúa Malayan Colleges Mindanao's Office for Student Services during the December Virtual Marketing event.",
+      "href": "https://github.com/Raphile14/MCM-Virtual-Marketplace",
+      "img": "/images/mcm-virtual-marketplace.png",
+      "role": "Full Stack Developer",
+      "awards": null
+    },
+    {
+      "title": "MCM Virtual Club Fair",
+      "duration": "Oct 2020",
+      "body": "A frontend and backend project for the MCM Virtual Club Fair 2020. The website is used to showcase the institution's student clubs and organization.",
+      "href": "https://github.com/Raphile14/MCMFusionServer",
+      "img": "/images/mcm-club-fair.png",
+      "role": "Full Stack Developer",
+      "awards": null
+    },
+    {
+      "title": "MCM Fusion Technicity: Voting Website",
+      "duration": "Sep 2020 - Oct 2020",
+      "body": "This Webite is used to assist the MCM Fusion: Technicity event for the academic year 2020-2021 on October 2, 2020. The Website will handle the votation process for the Mr and Ms Staycation, Show Stopper, MCMFlicks and Chill, and Vattle of the Vands. The website also showcases a live display of current votes.",
+      "href": "https://github.com/Raphile14/MCMVirtualClubFair2020",
+      "img": "/images/mcm-fusion.png",
+      "role": "Full Stack Developer",
+      "awards": null
+    }
+  ]
+}
