@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "name": "Raphael Dalangin's GitHub",
+      "img": "/images/icons/github.svg",
+      "url": "https://github.com/Raphile14"
+    },
+    {
+      "name": "Raphael Dalangin's LinkedIn",
+      "img": "/images/icons/linkedin.svg",
+      "url": "https://www.linkedin.com/in/raphael-dalangin/"
+    },
+
+    {
+      "name": "Raphael Dalangin's Spotify",
+      "img": "/images/icons/spotify.svg",
+      "url": "https://open.spotify.com/artist/2cdcLzfzTLNxcdxYHbV782?si=-Ak1q3pnTG2_cY6ayaKe1A"
+    },
+    {
+      "name": "Raphael Dalangin's YouTube",
+      "img": "/images/icons/youtube.svg",
+      "url": "https://www.youtube.com/channel/UCv7CwhtHJtM0pz_c4Rxxx-Q"
+    }
+  ]
+}
