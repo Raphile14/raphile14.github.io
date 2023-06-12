@@ -5,7 +5,11 @@ import socials from "@data/socials.json";
 <section class='flex items-center justify-center gap-2 py-4'>
   {
     socials.data.map((social) => (
-      <a class='w-8 h-8' href={social.url} target='_blank'>
+      <a
+        class='w-8 h-8 transition hover:scale-110'
+        href={social.url}
+        target='_blank'
+      >
         <img src={social.img} alt={social.name} />
       </a>
     ))
