@@ -4,7 +4,10 @@
   <!-- Container -->
   <div class='relative flex items-center justify-between'>
     <!-- Logo for md and up -->
-    <a href='/' class='hidden md:block'>
+    <a
+      href='/'
+      class='hidden md:block transition hover:bg-white hover:text-black rounded-3xl'
+    >
       <div class='relative flex items-center justify-between'>
         <div class='w-8 h-8'>
           <img
@@ -22,11 +25,15 @@
     <!-- Navigations for md and up -->
     <div class='hidden md:block'>
       <ul class='relative flex items-center justify-between'>
-        <li class='px-4'><a href='/#about'>About Me</a></li>
-        <li class='px-4'>
+        <li class='px-4 transition hover:bg-white hover:text-black rounded-3xl'>
+          <a href='/#about'>About Me</a>
+        </li>
+        <li class='px-4 transition hover:bg-white hover:text-black rounded-3xl'>
           <a href='/#projects'>Projects I've Worked On</a>
         </li>
-        <li class='px-4'><a href='/#contact'>Contact Me</a></li>
+        <li class='px-4 transition hover:bg-white hover:text-black rounded-3xl'>
+          <a href='/#contact'>Contact Me</a>
+        </li>
       </ul>
     </div>
 
