@@ -13,149 +13,123 @@ import TopSocial from "@components/TopSocial.astro";
 <Layout title="Raphael Dalangin's Portfolio">
   <main class=''>
     <!-- About Me Data -->
-    <section
-      id='about'
-      class='border-spacing-2 bg-slate-100 rounded-3xl shadow-2xl m-4 md:m-16 lg:m-16'
-    >
-      <div class='py-8'>
-        <h2 class='hidden lg:block text-center font-bold text-2xl pb-8'>
-          Hello World, and welcome to my portfolio!
-        </h2>
+    <section class='py-8'>
+      <article
+        class='flex flex-wrap justify-center items-stretch h-full px-4 lg:px-16 gap-16'
+      >
+        <div class='flex-1 text-left'>
+          <p class='text-4xl font-light'>Hi! I am</p>
+          <p class='text-6xl font-bold'>Raphael Dalangin</p>
+          <p class='text-base pt-4 font-normal italic'>
+            <span>⚬</span> Project Leadership
+            <span>⚬</span> Client Engagement
+            <span>⚬</span> Backend Development
+            <span>⚬</span> DevOps
+            <span>⚬</span> Systems Architecture
+          </p>
+        </div>
+        <div class='flex-1'>
+          <img
+            class='rounded-3xl shadow-2xl w-full h-auto object-cover object-top'
+            src='/images/Raphael Dalangin MMCM.jpeg'
+            alt='My graduation picture'
+          />
+        </div>
+      </article>
 
-        <h2 class='lg:hidden text-center font-bold text-2xl pb-4 lg:pb-8'>
-          Hello World, <span class='line-clamp-1 text-base'>
-            and welcome to my portfolio!
-          </span>
-        </h2>
-
-        <!-- Tech and Languages -->
-        <article class='flex justify-center items-center h-full px-4 lg:px-16'>
-          <div class='flex w-full'>
-            <div class='hidden lg:block w-1/4 shrink-0 pb-16'>
-              <img
-                class='rounded-3xl shadow-2xl'
-                src='/images/Raphael Dalangin.jpg'
-                alt='My image'
-              />
-              <TopSocial />
-            </div>
-            <div class='px-4 lg:px-16'>
-              <div class='text-justify'>
-                <div class='block lg:hidden w-1/4 shrink-0 mx-auto pb-4'>
-                  <img
-                    class='rounded-3xl shadow-2xl'
-                    src='/images/Raphael Dalangin.jpg'
-                    alt='My image'
-                  />
-                </div>
-                <p class='pb-8'>
-                  I am
-                  <b>
-                    <a href='https://github.com/raphile14' target='_blank'
-                      >Raphael Dalangin,
-                    </a>
-                  </b> your coding maestro. I wear many hats but mainly, I flourish
-                  as a <b>Project Manager</b> and a
-                  <b> Full Stack Developer</b>. Below is a toolbelt of
-                  technologies I have experience developing projects with:
-                </p>
-                <div
-                  class='flex flex-wrap px-4 lg:px-16 gap-4 lg:gap-y-8 justify-center'
-                >
-                  {
-                    technologies.data.map((technology) => (
-                      <a href={technology.url} target='_blank'>
-                        <div class='flex flex-col items-center transition hover:scale-110'>
-                          <img
-                            class='rounded-full max-h-8 xl:max-h-16 px-4 lg:px-4 xl:px-8'
-                            src={technology.img}
-                            alt={technology.name}
-                          />
-                        </div>
-                      </a>
-                    ))
-                  }
-                </div>
-
-                <p class='text-justify py-8'>
-                  I architect web and software landscapes that are not just
-                  functional, but also <i>eloquent and responsive</i>. Below is
-                  a list of languages I have experience with:
-                </p>
-
-                <div
-                  class='flex flex-wrap px-4 lg:px-16 gap-4 lg:gap-y-8 justify-center'
-                >
-                  {
-                    languages.data.map((language) => (
-                      <a href={language.url} target='_blank'>
-                        <div class='flex flex-col items-center transition hover:scale-110'>
-                          <img
-                            class='rounded-full max-h-8 xl:max-h-16 px-4 lg:px-4 xl:px-8'
-                            src={language.img}
-                            alt={language.name}
-                          />
-                        </div>
-                      </a>
-                    ))
-                  }
-                </div>
-
-                <p class='text-justify py-8'>
-                  But let’s dive a bit deeper! Beyond the bits and bytes, my
-                  devotion to coding is fueled by the sheer magic of creating. I
-                  perceive code as an evolving art form and, in every project, I
-                  seek to craft digital experiences that empower and resonate
-                  with their audience. Whether it's carving out the logical
-                  backbone of an application or rendering the pixels on a
-                  screen, my solutions are like symphonies composed with a fine
-                  balance of technical prowess and creativity.
-                </p>
-              </div>
-            </div>
+      <!-- Tech and Languages -->
+      <article class='flex justify-center items-center h-full px-4 lg:px-16'>
+        <div class='flex w-full'>
+          <div class='hidden lg:block w-1/4 shrink-0 pb-16'>
+            <img
+              class='rounded-3xl shadow-2xl'
+              src='/images/Raphael Dalangin.jpg'
+              alt='My image'
+            />
+            <TopSocial />
           </div>
-        </article>
-
-        <!-- Academics -->
-        <article class='flex justify-center items-center h-full px-4 lg:px-16'>
-          <div class='flex w-full'>
-            <div class='px-4 lg:px-16'>
-              <div class='block lg:hidden pb-4 w-1/4 shrink-0 mx-auto'>
-                <div
-                  class='aspect-square rounded-3xl shadow-2xl overflow-hidden'
-                >
-                  <img
-                    class='w-full h-full object-cover object-top'
-                    src='/images/Raphael Dalangin MMCM.jpeg'
-                    alt='My graduation picture'
-                  />
-                </div>
+          <div class='px-4 lg:px-16'>
+            <div class='text-justify'>
+              <div class='block lg:hidden w-1/4 shrink-0 mx-auto pb-4'>
+                <img
+                  class='rounded-3xl shadow-2xl'
+                  src='/images/Raphael Dalangin.jpg'
+                  alt='My image'
+                />
               </div>
-              <h2
-                class='text-center lg:text-justify font-bold text-2xl pb-4 lg:pb-8'
+              <p class='pb-8'>
+                I am
+                <b>
+                  <a href='https://github.com/raphile14' target='_blank'
+                    >Raphael Dalangin,
+                  </a>
+                </b> your coding maestro. I wear many hats but mainly, I flourish
+                as a <b>Project Manager</b> and a
+                <b> Full Stack Developer</b>. Below is a toolbelt of
+                technologies I have experience developing projects with:
+              </p>
+              <div
+                class='flex flex-wrap px-4 lg:px-16 gap-4 lg:gap-y-8 justify-center'
               >
-                My Academics
-              </h2>
-              <p class='text-justify pb-8'>
-                In 2022, I marked a pivotal milestone in my educational journey
-                by graduating with a degree of Bachelor of Science in Computer
-                Science from
-                <a href='https://mcm.edu.ph/' target='_blank'>
-                  <b>Mapúa Malayan Colleges Mindanao</b>
-                </a>. This achievement was not just about crossing a finish
-                line; it was a testament to my dedication and zeal for mastering
-                the realms of technology. With immense pride, I graduated
-                <i>summa cum laude</i>. This honor is reflective of my
-                unwavering commitment to learning and my insatiable appetite for
-                knowledge. Through rigorous coursework and practical projects,
-                my time at
-                <a href='https://mcm.edu.ph/' target='_blank'><b>MMCM</b></a> instilled
-                in me a strong foundation in computational theory, algorithms, and
-                programming paradigms that I continually leverage in my professional
-                endeavors.
+                {
+                  technologies.data.map((technology) => (
+                    <a href={technology.url} target='_blank'>
+                      <div class='flex flex-col items-center transition hover:scale-110'>
+                        <img
+                          class='rounded-full max-h-8 xl:max-h-16 px-4 lg:px-4 xl:px-8'
+                          src={technology.img}
+                          alt={technology.name}
+                        />
+                      </div>
+                    </a>
+                  ))
+                }
+              </div>
+
+              <p class='text-justify py-8'>
+                I architect web and software landscapes that are not just
+                functional, but also <i>eloquent and responsive</i>. Below is a
+                list of languages I have experience with:
+              </p>
+
+              <div
+                class='flex flex-wrap px-4 lg:px-16 gap-4 lg:gap-y-8 justify-center'
+              >
+                {
+                  languages.data.map((language) => (
+                    <a href={language.url} target='_blank'>
+                      <div class='flex flex-col items-center transition hover:scale-110'>
+                        <img
+                          class='rounded-full max-h-8 xl:max-h-16 px-4 lg:px-4 xl:px-8'
+                          src={language.img}
+                          alt={language.name}
+                        />
+                      </div>
+                    </a>
+                  ))
+                }
+              </div>
+
+              <p class='text-justify py-8'>
+                But let’s dive a bit deeper! Beyond the bits and bytes, my
+                devotion to coding is fueled by the sheer magic of creating. I
+                perceive code as an evolving art form and, in every project, I
+                seek to craft digital experiences that empower and resonate with
+                their audience. Whether it's carving out the logical backbone of
+                an application or rendering the pixels on a screen, my solutions
+                are like symphonies composed with a fine balance of technical
+                prowess and creativity.
               </p>
             </div>
-            <div class='hidden lg:block w-1/4 shrink-0 pb-16'>
+          </div>
+        </div>
+      </article>
+
+      <!-- Academics -->
+      <article class='flex justify-center items-center h-full px-4 lg:px-16'>
+        <div class='flex w-full'>
+          <div class='px-4 lg:px-16'>
+            <div class='block lg:hidden pb-4 w-1/4 shrink-0 mx-auto'>
               <div class='aspect-square rounded-3xl shadow-2xl overflow-hidden'>
                 <img
                   class='w-full h-full object-cover object-top'
@@ -164,9 +138,40 @@ import TopSocial from "@components/TopSocial.astro";
                 />
               </div>
             </div>
+            <h2
+              class='text-center lg:text-justify font-bold text-2xl pb-4 lg:pb-8'
+            >
+              My Academics
+            </h2>
+            <p class='text-justify pb-8'>
+              In 2022, I marked a pivotal milestone in my educational journey by
+              graduating with a degree of Bachelor of Science in Computer
+              Science from
+              <a href='https://mcm.edu.ph/' target='_blank'>
+                <b>Mapúa Malayan Colleges Mindanao</b>
+              </a>. This achievement was not just about crossing a finish line;
+              it was a testament to my dedication and zeal for mastering the
+              realms of technology. With immense pride, I graduated
+              <i>summa cum laude</i>. This honor is reflective of my unwavering
+              commitment to learning and my insatiable appetite for knowledge.
+              Through rigorous coursework and practical projects, my time at
+              <a href='https://mcm.edu.ph/' target='_blank'><b>MMCM</b></a> instilled
+              in me a strong foundation in computational theory, algorithms, and
+              programming paradigms that I continually leverage in my professional
+              endeavors.
+            </p>
           </div>
-        </article>
-      </div>
+          <div class='hidden lg:block w-1/4 shrink-0 pb-16'>
+            <div class='aspect-square rounded-3xl shadow-2xl overflow-hidden'>
+              <img
+                class='w-full h-full object-cover object-top'
+                src='/images/Raphael Dalangin MMCM.jpeg'
+                alt='My graduation picture'
+              />
+            </div>
+          </div>
+        </div>
+      </article>
     </section>
 
     <!-- Web Projects -->
